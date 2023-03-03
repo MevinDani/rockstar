@@ -1,0 +1,371 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+/* NavBar */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    width: 100%;
+    color: #fff;
+    height: 60px;
+    font-size: 25px;
+    border-bottom: 1px solid gainsboro;
+    /* position: sticky;
+    top: 0px; */
+    z-index: 1;
+}
+
+/* .navbar:hover {
+    background-color: rgb(20, 20, 20);
+} */
+
+.ham {
+    padding-left: 80px;
+    padding-top: 14px;
+    transition: 0.2s ease-in-out;
+}
+
+.ham:hover {
+    color: orange;
+    cursor: pointer;
+}
+
+.logoImg {
+    width: 50px;
+    height: 40px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.user {
+    padding-right: 80px;
+    padding-top: 14px;
+    transition: 0.2s ease-in-out;
+}
+
+.user:hover {
+    color: orange;
+    cursor: pointer;
+}
+
+/* Main-Land */
+
+.main-land {
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.land1 {
+    width: 70%;
+}
+
+.landImg {
+    width: 100%;
+    height: 85%;
+}
+
+.land2 {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding: 100px 10px 10px 30px;
+}
+
+.land2 h3 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+.land2Button {
+    background-color: black;
+    color: #fff;
+    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    border: 1px solid #fff;
+    padding: 10px;
+    border-radius: 8px;
+    width: 200px;
+    transition: 0.1s ease-in-out;
+}
+
+.land2Button:hover {
+    background-color: orange;
+    color: black;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+/* NewsSection */
+
+.newsSection {
+    background-color: rgb(20, 20, 20);
+}
+
+.news-wire {
+    background-color: rgb(20, 20, 20);
+    width: 95%;
+    height: 290vh;
+    margin: 0 40px;
+
+}
+
+.newsHead {
+    color: #fff;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.newsHead h2 {
+    margin-top: 0;
+    font-weight: 800;
+    font-size: 30px;
+    color: orange;
+}
+
+
+.news-r1 {
+    width: 100%;
+    height: 92vh;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.news1 {
+    border: 1px solid rgb(110, 110, 110);
+    background-color: black;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 28%;
+    border-radius: 10px;
+    transition: 0.2s ease-in-out;
+}
+
+.news1:hover {
+    cursor: pointer;
+    border: 1.5px solid orange;
+    transform: scale(1.025);
+}
+
+.news1 h3 {
+    font-weight: 300;
+}
+
+.news1 span {
+    color: grey;
+}
+
+.text {
+    padding: 15px;
+}
+
+.news-img {
+    height: 300px;
+    width: 100%;
+}
+
+.newsButton {
+    color: #000000;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.newsButton button {
+    background-color: black;
+    color: #fff;
+    border: 1px solid #fff;
+    width: 150px;
+    height: 40px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    transition: 0.1s ease-in-out;
+}
+
+.newsButton button:hover {
+    background-color: orange;
+    color: black;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+/* Featured Games */
+
+.games {
+    margin-top: 50px;
+}
+
+.featured-games {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.featureImg {
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    transition: 0.2s ease-in-out;
+}
+
+.featureImg:hover {
+    cursor: pointer;
+    border: 1.5px solid orange;
+    transform: scale(1.025);
+}
+
+.gamesButton {
+    margin-top: 30px;
+}
+
+/* footer */
+
+/* .footer-section {
+    background-color: aqua;
+} */
+
+.footer {
+    background-color: black;
+    width: 100%;
+    color: white;
+}
+
+.footer1 {
+    display: flex;
+    font-weight: 600;
+    font-size: 20px;
+    height: 120px;
+    align-items: center;
+}
+
+.sub {
+    padding-right: 60px;
+}
+
+.f1-left {
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+}
+
+.f1-left div:hover {
+    color: orange;
+    cursor: pointer;
+}
+
+
+.contact {
+    padding-left: 0px;
+}
+
+.f1-right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.lanuage {
+    padding-left: 450px;
+}
+
+
+.footer2 {
+    display: flex;
+    height: 150px;
+    align-items: center;
+}
+
+.f2-left {
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+.f2-left div:hover {
+    color: orange;
+    cursor: pointer;
+}
+
+.corp {
+    padding-left: 36px;
+}
+
+.Pii {
+    padding-right: 50px;
+}
+
+.f2-right {
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: larger;
+}
+
+.f2-right div:hover {
+    color: orange;
+    cursor: pointer;
+}
+
+.twitch {
+    padding-left: 40px;
+}
+
+.face {
+    padding-right: 5px;
+}
+
+.footer3 {
+    display: flex;
+    height: 100px;
+    align-items: center;
+    font-weight: 900;
+}
+
+.f3-left {
+    width: 30%;
+    padding-left: 10px;
+}
+
+.rock {
+    padding-left: 70px;
+}
+
+.f3-middle {
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.new {
+    padding-left: 70px;
+}
+
+.bog {
+    padding-right: 70px;
+}
+
+.f3-right {
+    width: 30%;
+}
+
+.f3-last {
+    padding-left: 225px;
+}
